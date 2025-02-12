@@ -1,0 +1,14 @@
+variable "vpc_cidr" {}
+variable "instance_tenancy" {}
+variable "vpc_name" {}
+variable "enable_dns_support" {}
+variable "enable_dns_hostnames" {}
+variable "igw_name" {}
+variable "public_subnet_cidrs" {}
+variable "availability_zones" {}
+variable "private_subnet_cidrs" {}
+variable "routetable_cidr" {}
+variable "public_route_table_name" {}
+variable "private_route_table_name" {}
+variable "nat_name" {}
+variable "eip_domain" {}
