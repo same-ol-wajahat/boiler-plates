@@ -1,4 +1,4 @@
-### Some Advanced Docker Commands
+# Some Advanced Docker Commands
 
 Here are some advanced docker commands that I have experienced over a period of time that you may find usefull
 
@@ -12,7 +12,7 @@ docker system
 
 Most widely used commands from `docker system` domain are:
 
-# docker system df
+### docker system df
 
 This is used to check the disk storage used by docker, it is very helpful when you are struggling with the disk space full issues and want to know how much storage docker is using
 
@@ -20,7 +20,7 @@ This is used to check the disk storage used by docker, it is very helpful when y
 docker system df
 ```
 
-# docker system prune
+### docker system prune
 
 This command is used to clear all the dangling resources of docker,
 
